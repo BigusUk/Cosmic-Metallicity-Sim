@@ -20,7 +20,7 @@ This script simulates the evolution of metallicity (fraction of heavy elements) 
 3. Run: `python metallicity_simulation.py`
 
 ## Assumptions
-- Based on Planck 2018 cosmology for universe ages at different redshifts.
+- Based on Planck PR4 (2024) cosmology for latest precision.
 - Exponential growth formula: Z(t) = Z0 * exp(k * t), with Z0 = 1e-5 (initial low metallicity) and k = 0.55 Gyr^-1 (calibrated to reach solar-like ~0.02 today).
 - Redshift range: z=0 (today) to z=10 (~0.48 Gyr after Big Bang).
 - Sensitivity test varies growth rate by ±1% to mimic constant changes.
@@ -44,6 +44,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 
 
